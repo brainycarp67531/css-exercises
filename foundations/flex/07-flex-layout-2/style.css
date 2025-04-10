@@ -50,3 +50,9 @@ body {
 .sidebar {
   flex: 0 0 auto;
 }
+
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
