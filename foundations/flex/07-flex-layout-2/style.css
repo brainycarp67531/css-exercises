@@ -35,6 +35,11 @@ body {
   margin: 2px;
 }
 
+body {
+  display: flex;
+  flex-direction: column;
+}
+
 .header {
   display: flex;
   align-items: center;
@@ -45,10 +50,23 @@ body {
 
 .content {
   display: flex;
+  flex: 1 0 auto;
 }
 
 .sidebar {
   flex: 0 0 auto;
+}
+
+.text {
+  display: flex;
+  justify-content: space-evenly;
+  /* flex-wrap: wrap; */
+
+}
+
+.card {
+  flex: 0 0 200px;
+  height: 200px;;
 }
 
 .footer {
