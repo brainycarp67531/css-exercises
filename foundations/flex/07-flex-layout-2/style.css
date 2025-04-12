@@ -30,10 +30,10 @@ body {
 
 /* Solution */
 
-* {
+/* * {
   border: 1px solid red;
   margin: 2px;
-}
+} */
 
 body {
   display: flex;
@@ -54,19 +54,30 @@ body {
 }
 
 .sidebar {
-  flex: 0 0 auto;
+  flex: 0 0 300px;
+}
+ul {
+  padding: 16px
+}
+
+a {
+  font-size: 24px;
+  text-decoration: none;
+  color: rgb(255, 255, 255);
 }
 
 .text {
   display: flex;
-  justify-content: space-evenly;
-  /* flex-wrap: wrap; */
+  justify-content: start;
+  flex-wrap: wrap;
+  align-items: stretch;
+  gap: 16px;
+  margin: 16px;
 
 }
 
 .card {
-  flex: 0 0 200px;
-  height: 200px;;
+  flex: 0 0 300px;
 }
 
 .footer {
